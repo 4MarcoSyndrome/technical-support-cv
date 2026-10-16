@@ -25,3 +25,16 @@ HTML
 CSS
 
 - Center all of the text of the page
+
+## Week2 Challenge
+
+Take the CV site you created last week and do the following:
+
+- Use ID's and Classes to re-style your website.
+
+You will need to go to W3 Schools to find out how to do the following:
+
+- Add text shadow to your headings
+- Underline and bold key words in your CV. You can use a span tag to target a specific word in a p tag or similar.
+- Change the style of one of the lists on your page so that the bullet points appear differently
+- Use HTML to create a link that when clicked jumps between headings on the page (you will need enough content on the page so that the user would need to scroll)
