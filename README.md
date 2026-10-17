@@ -46,3 +46,19 @@ Update your CV from the last week to be a FlexBox responsive design. Design is m
 - Have 3 columns at some point in the design
 - Use Justified Content
 - Use a media query to change some aspect of your design at smaller widths
+
+## Week4 Challenge
+
+Take your CV site and split it into 2 pages:
+
+- One for your 'Cover letter'
+
+- One for your Experience, Skills and Education
+
+- Add an image of yourself and put in the 'images' folder
+
+- Move your stylesheet to a 'styles' folder
+
+- Use relative path for the above
+
+- Use an absolute path to add a social media site or other site of your choice

@@ -144,6 +144,16 @@ footer {
     font-size: .8em;
 }
 
+/* cover letter */
+.letter {
+    max-width: 51.25rem;
+    margin: 1.8rem auto;
+}
+
+.letter p {
+    margin: 0 0 1.2rem;
+}
+
 /* At narrow widths, stack cards and reduce page spacing. */
 @media (max-width: 40.625rem) {
 
