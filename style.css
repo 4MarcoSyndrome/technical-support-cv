@@ -72,7 +72,12 @@ a:link {
     margin: 1rem 1rem;
     padding: .625rem 2rem;
     background-color: var(--red);
+    color: var(--background-color);
     border-radius: .5rem;
+}
+
+.container-nav > li > a {
+    color: var(--background-color);
 }
 
 .container-nav > li:hover {
@@ -82,7 +87,7 @@ a:link {
 /* main */
 .container {
     max-width: 56.25rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 .cv-section {
@@ -90,6 +95,7 @@ a:link {
     box-shadow: .1rem .1rem var(--color);
     border-radius: .5rem;
     margin: 3rem;
+    padding: 1.5rem 0;
 }
 
 .summary {
@@ -99,6 +105,23 @@ a:link {
 
 ul {
     list-style-type: none;
+}
+
+/* skills card */
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.skill-card {
+    flex: 1 1 27%;
+    min-width: 13.75rem;
+    padding: 1.5rem;
+    background: #f2f7fa;
+    border-left: 4px solid #087e8b; border-radius: 8px;
 }
 
 
@@ -119,4 +142,24 @@ footer {
 
 .copyright {
     font-size: .8em;
+}
+
+/* At narrow widths, stack cards and reduce page spacing. */
+@media (max-width: 40.625rem) {
+
+  main {
+    padding: .6rem;
+    }
+
+  .cv-section {
+    padding: 1.2rem;
+    }
+
+  .skills-grid {
+    flex-direction: column;
+    }
+
+  .skill-card {
+    min-width: 0;
+    }
 }

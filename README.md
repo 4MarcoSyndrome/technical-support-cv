@@ -38,3 +38,11 @@ You will need to go to W3 Schools to find out how to do the following:
 - Underline and bold key words in your CV. You can use a span tag to target a specific word in a p tag or similar.
 - Change the style of one of the lists on your page so that the bullet points appear differently
 - Use HTML to create a link that when clicked jumps between headings on the page (you will need enough content on the page so that the user would need to scroll)
+
+## Week3 Challenge
+
+Update your CV from the last week to be a FlexBox responsive design. Design is mostly up to you but for full marks your design should:
+
+- Have 3 columns at some point in the design
+- Use Justified Content
+- Use a media query to change some aspect of your design at smaller widths
